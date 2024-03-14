@@ -1,0 +1,57 @@
+#pagehead {
+    background: url(../img/upload/hw1.png);
+}
+div a {
+    font-size: 25px;
+    color: white;
+    text-decoration:none; 
+    position:relative;
+}
+.bn {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+    outline:none;
+}
+.bn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.bn:active {
+	position:relative;
+	top:1px;
+}
+#pic{
+    width: 200px;
+    height: 200px;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+.gradient-background{
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, purple);
+    height: 100%;
+    animation: gradientBG 15s ease infinite;
+    background-size: 300% 300%;
+}
+@keyframes gradientBG {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
